@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "symbols": ["GLW", "DRAM", "LITE", "SOXX", "MU", "WDC", "COHR", "INTC", "NBIS"],
+  "notes": {
+    "DRAM": "Roundhill Memory ETF，非 Dataram",
+    "COHR": "Coherent，相干公司，光通信/激光器",
+    "INTC": "Intel，英特尔",
+    "NBIS": "分析时额外关注流动性与波动风险"
+  }
+}
