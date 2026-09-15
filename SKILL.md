@@ -68,8 +68,8 @@ https://query1.finance.yahoo.com/v8/finance/chart/{SYMBOL}?period1={UNIX_SECONDS
 1. 历史价格结构 35%
 2. 均线趋势 20%
 3. 成交量/筹码结构 20%
-4. Fibonacci 回撤与扩展 15%
-5. ATR 波动调整 10%
+4. ATR 波动调整 10%
+5. Fibonacci 回撤与扩展 15%
 
 判断优先级：历史价格结构 ≥ 成交量结构 > 均线趋势 > Fibonacci > ATR。EMA8/13 交叉只增强或削弱均线趋势因子内部评分，不成为第六因子，也不能独立触发交易结论。不要使用“5%量化支撑压力模型”。
 
