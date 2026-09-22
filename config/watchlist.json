@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "symbols": ["GLW", "DRAM", "LITE", "SOXX", "MU", "WDC", "COHR", "INTC", "NBIS", "NOW", "IGV", "PLTR"],
+  "symbols": ["GLW", "DRAM", "LITE", "SOXX", "MU", "WDC", "COHR", "INTC", "NBIS", "AMD", "NOW", "IGV", "PLTR"],
   "notes": {
     "DRAM": "Roundhill Memory ETF，非 Dataram",
     "COHR": "Coherent，相干公司，光通信/激光器",
