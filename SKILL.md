@@ -61,7 +61,14 @@ https://query1.finance.yahoo.com/v8/finance/chart/{SYMBOL}?period1={UNIX_SECONDS
 
 ### 纯 Johnny 模式
 
-仅在明确触发词出现时使用。阅读 [johnny-methodology.md](references/johnny-methodology.md)，输出离散关键位、市场状态、交易计划和风险预算；不强制 Wave+Value 权重和三层 ATR 区间。
+仅在明确触发词出现时使用。Johnny 方法论**不保存本地副本**，每次触发时用 curl 从上游权威仓库实时拉取最新版内容后严格执行，不写入本仓库、不做长期缓存：
+
+- 入口与工作流：`https://raw.githubusercontent.com/ckczzj/johnny-finance-skill/main/skills/johnny-analysis/SKILL.md`
+- 完整方法论 / 共振评分 / 标准分析流程：`https://raw.githubusercontent.com/ckczzj/johnny-finance-skill/main/skills/johnny-analysis/references/methodology.md`
+- 图表复现协议（出图时再取）：`https://raw.githubusercontent.com/ckczzj/johnny-finance-skill/main/skills/johnny-analysis/references/visual-protocol.md`
+- 规则来源与专业校正（需溯源时再取）：`https://raw.githubusercontent.com/ckczzj/johnny-finance-skill/main/skills/johnny-analysis/references/evidence-map.md`
+
+按当次拉取到的最新内容输出离散关键位、市场状态、交易计划和风险预算；不强制 Wave+Value 权重和三层 ATR 区间。上游拉取失败时，明确披露“未能获取最新 Johnny 方法论”并停止纯 Johnny 输出，不得凭本地旧版或记忆硬凑。
 
 ## Wave+Value 五因子
 
