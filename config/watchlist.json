@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "symbols": ["GLW", "DRAM", "LITE", "MU", "WDC", "COHR", "INTC", "NBIS", "NOW", "IGV", "PLTR", "MRNA", "HIMS", "AAOI", "BE"],
+  "symbols": ["GLW", "DRAM", "LITE", "MU", "WDC", "COHR", "INTC", "NBIS", "NOW", "IGV", "PLTR", "MRNA", "HIMS", "AAOI", "BE", "HPE"],
   "notes": {
     "DRAM": "Roundhill Memory ETF，非 Dataram",
     "COHR": "Coherent，相干公司，光通信/激光器",
@@ -12,6 +12,7 @@
     "MRNA": "Moderna，mRNA疫苗/生物科技",
     "HIMS": "Hims & Hers Health，远程医疗/消费者健康",
     "AAOI": "Applied Optoelectronics，光通信/光模块",
-    "BE": "Bloom Energy，燃料电池/分布式清洁能源发电"
+    "BE": "Bloom Energy，燃料电池/分布式清洁能源发电",
+    "HPE": "Hewlett Packard Enterprise，企业级服务器/存储/网络基础设施"
   }
 }
