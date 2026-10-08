@@ -143,9 +143,12 @@ SKILL.md
 us-stock-technical-analysis/
 ├── SKILL.md
 ├── README.md
-└── references/
-    └── johnny-methodology.md
+└── config/
+    └── watchlist.json
 ```
+
+纯 Johnny 模式的方法论不保存本地副本，运行时从上游仓库
+`ckczzj/johnny-finance-skill` 实时拉取，具体地址见 `SKILL.md` 的“纯 Johnny 模式”。
 
 ## 数据与执行纪律
 
@@ -176,7 +179,8 @@ us-stock-technical-analysis/
 ## 项目文件
 
 - [`SKILL.md`](SKILL.md)：核心路由、融合分析流程和输出契约
-- [`references/johnny-methodology.md`](references/johnny-methodology.md)：纯 Johnny 模式的详细方法
+- [`config/watchlist.json`](config/watchlist.json)：默认标的池
+- 纯 Johnny 模式：不随仓库分发方法论副本，按 `SKILL.md` 中的上游地址实时拉取 `ckczzj/johnny-finance-skill` 最新版
 
 ## License
 
